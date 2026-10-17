@@ -37,32 +37,6 @@ FitLog is a responsive workout library and daily workout planner built with Reac
 
 6. Open the local URL shown by Vite in the terminal (usually `http://localhost:5173`).
 
-## Build for production
 
-```bash
-npm run build
-npm run preview
-```
-
-## Add your own images later
-
-The image folders are included and your uploaded assets have been placed into the project.
-
-- Logo: `public/images/logo/fitlog-logo.svg` (your uploaded SVG logo).
-- Hero: `public/images/hero/fitlog-hero.png` (your uploaded banner image).
-- Workout images: `public/images/workouts/overhead-press.png` and `public/images/workouts/conventional-deadlift.png`.
-- Extra SVG assets: `public/images/icons/`.
-
-Example for a public image file:
-
-```tsx
-<img src="/images/logo/your-logo.png" alt="FitLog logo" />
-```
-
-To replace the logo, change the image path in `src/components/Logo.tsx`. To replace the hero image, change the path in `src/pages/WorkoutsPage.tsx`. Workout card, details modal, and plan images use the optional `image` field in `src/data/workouts.ts`; add image paths there for more exercises. Only the images supplied in your ZIP were used, so exercises without a matching supplied image keep their designed placeholder.
-
-## Notes
-
-- No backend is configured. Plan and saved data are stored in browser local storage.
 - Exercise details and calorie values are sample reference data, not medical advice.
 - The PDF reference was used for the FitLog visual direction and the two main pages.
