@@ -44,43 +44,6 @@ npm run build
 npm run preview
 ```
 
-## Folder structure
-
-```text
-fitlog-react/
-├── public/
-│   └── images/
-│       ├── hero/
-│       ├── logo/
-│       └── workouts/
-├── src/
-│   ├── components/
-│   │   ├── Footer.tsx
-│   │   ├── Header.tsx
-│   │   ├── Logo.tsx
-│   │   ├── WorkoutCard.tsx
-│   │   └── WorkoutModal.tsx
-│   ├── context/
-│   │   └── FitLogContext.tsx
-│   ├── data/
-│   │   └── workouts.ts
-│   ├── pages/
-│   │   ├── MyPlanPage.tsx
-│   │   └── WorkoutsPage.tsx
-│   ├── styles/
-│   │   └── global.css
-│   ├── types/
-│   │   └── workout.ts
-│   ├── App.tsx
-│   └── main.tsx
-├── index.html
-├── package.json
-├── tsconfig.app.json
-├── tsconfig.json
-├── tsconfig.node.json
-└── vite.config.ts
-```
-
 ## Add your own images later
 
 The image folders are included and your uploaded assets have been placed into the project.
