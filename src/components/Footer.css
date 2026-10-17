@@ -1,0 +1,1 @@
+.site-footer{margin-top:80px;border-top:1px solid var(--line)}.site-footer__inner{max-width:1240px;margin:auto;padding:24px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px}.site-footer p{margin:0;color:var(--muted);font-size:11px}@media(max-width:650px){.site-footer__inner{padding:22px 16px;align-items:flex-start;flex-direction:column}}
